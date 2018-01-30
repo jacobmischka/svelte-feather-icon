@@ -23,6 +23,8 @@
     "svelte-loader": "^2.3.3"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.js",
+    "FeatherIcon.html"
   ]
 }

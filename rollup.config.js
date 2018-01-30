@@ -2,7 +2,7 @@ import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
 
 export default {
-	input: './src/index.js',
+	input: './index.js',
 	output: [
 		{
 			file: 'dist/index.cjs.js',
@@ -15,7 +15,7 @@ export default {
 	],
 	plugins: [
 		svelte({
-			include: 'src/*.html'
+			include: '*.html'
 		}),
 		babel({
 			exclude: 'node_modules/**'
