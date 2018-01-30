@@ -4,6 +4,7 @@
   "description": "Feather icon component for Svelte.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
+  "svelte": "FeatherIcon.html",
   "repository": "https://github.com/jacobmischka/svelte-feather-icon.git",
   "author": "Jacob Mischka <jacob@mischka.me>",
   "license": "MIT",

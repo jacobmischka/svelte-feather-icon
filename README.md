@@ -18,8 +18,9 @@ Simple wrapper component for [Feather Icons][feather-icons].
 
 ### Using with [Sapper][sapper]
 
-Please import `svelte-feather-icon/FeatherIcon.html` directly and compile it from within your own project.
+Please import `svelte-feather-icon/FeatherIcon.html` directly (or configure your bundler to resolve `svelte` package fields, `rollup-plugin-svelte` does this out of the box, see [resolve.mainFields][resolve.mainFields] for webpack) and compile it from within your own project.
 
-Please see [sapper#110](https://github.com/sveltejs/sapper/issues/110) for discussion of alternatives.
+See [svelte#604](https://github.com/sveltejs/svelte/issues/604) for more information.
 
 [sapper]: https://sapper.svelte.technology
+[resolve.mainFields]: https://webpack.js.org/configuration/resolve/#resolve-mainfields
