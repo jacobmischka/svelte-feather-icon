@@ -1,11 +1,11 @@
-{{{ svg }}}
+{@html svg }
 
 <script>
 	import * as feather from 'feather-icons';
 
 	export default {
 		computed: {
-			svg(icon, attrs) {
+			svg({ icon, attrs }) {
 				if (!icon)
 					return '';
 
