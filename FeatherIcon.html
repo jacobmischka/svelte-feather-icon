@@ -1,13 +1,21 @@
-{@html svg }
+<span>{@html svg}</span>
 
 <script>
 	import * as feather from 'feather-icons';
 
 	export default {
+		data() {
+			return {
+				icon: null,
+				attrs: undefined
+			};
+		},
 		computed: {
 			svg({ icon, attrs }) {
 				if (!icon)
 					return '';
+
+				console.log(feather.icons[icon].toSvg(attrs));
 
 				return feather.icons[icon].toSvg(attrs);
 			}
