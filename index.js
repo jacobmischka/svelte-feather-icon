@@ -1,3 +1,3 @@
-import FeatherIcon from './FeatherIcon.html';
+import FeatherIcon from './FeatherIcon.svelte';
 
 export default FeatherIcon;

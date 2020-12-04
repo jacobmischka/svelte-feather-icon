@@ -14,9 +14,7 @@ export default {
 		}
 	],
 	plugins: [
-		svelte({
-			include: '*.html'
-		}),
+		svelte(),
 		babel({
 			exclude: 'node_modules/**'
 		})
