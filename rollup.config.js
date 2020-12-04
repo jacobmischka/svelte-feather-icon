@@ -2,7 +2,7 @@ import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
 
 export default {
-	input: './index.js',
+	input: 'src/index.js',
 	output: [
 		{
 			file: 'dist/index.cjs.js',

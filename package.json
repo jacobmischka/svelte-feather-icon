@@ -1,10 +1,10 @@
 {
   "name": "svelte-feather-icon",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Feather icon component for Svelte.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
-  "svelte": "FeatherIcon.svelte",
+  "svelte": "src/index.js",
   "repository": "https://github.com/jacobmischka/svelte-feather-icon.git",
   "author": "Jacob Mischka <jacob@mischka.me>",
   "license": "MIT",
@@ -13,7 +13,8 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "feather-icons": "^4.5.0"
+    "feather-icons": "^4.5.0",
+    "svelte": "^3.31.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -21,13 +22,11 @@
     "rollup": "^2.34.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-svelte": "^7.0.0",
-    "svelte": "^3.31.0",
     "svelte-loader": "^2.3.3",
     "svelte-upgrade": "^1.0.16"
   },
   "files": [
     "dist",
-    "index.js",
-    "FeatherIcon.svelte"
+		"src"
   ]
 }
